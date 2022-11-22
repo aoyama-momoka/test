@@ -3,9 +3,7 @@
 import { useState } from 'react';
 import './App.css';
 
-// テキスト修正
-
-function App({count}) {
+function App() {
   let [count, setCount] =useState(0);
   const countPlus =()=>{
     setCount(count+1);
@@ -22,7 +20,5 @@ function App({count}) {
     </div>
   );
 }
-
-
 
 export default App;
